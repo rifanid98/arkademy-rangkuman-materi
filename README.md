@@ -58,14 +58,59 @@
 #### ternary operator
 - gampangnya itu, if-else versi pendek, versi satu baris.
 - biasa digunakan hanya untuk menentukan atu mengecek satu kondisi saja.
+<br>
+contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/conditions.js">conditions.js</a>
 
 ## Function and Method
-> 
+- ES5
+Function di ES5 dan ES6 berbeda. 
+Function di ES5 struktrunya seperti ini :
+```
+function nama_function(parameter1, parameter2, parameter3,...){
+  //code here
+}
+
+nama_function(1,2,3); //memanggil function
+```
+- ES6
+Function di ES6 strukturnya berbeda, seperti ini :
+```
+const nama_variabel = (parameter1, parameter2, parameter3,...) => {
+  //code here
+}
+
+nama_variabel(1,2,3); //memanggil function
+```
+nama_variabel merupakan nama function yang diguanakan pada arrow function.
+kenapa dipanggil arrow function? karena menggunakan tanda panah <b>=></b>
+<br>
+contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/function.js">function.js</a>
 
 ## Loops and Iteration
 - perulangan , dah gitu aja.
 - dipakai itu paling sering case nya ketika menampilkan data dari database, biasanya pake loop, membuat nomor urut, biasanya pakai loop.
-
+- ada for loop, while loop, foreach loop, map loop etc.
+<br>
+contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/loops.js">loops.js</a>
 
 ## Promise and async/await
->
+### Promise
+Promise itu digunakan untuk mengganti metode eksekusi syntax javascript dari asynchronous ke synchronous.
+apa itu ?
+- Asynchronous
+Semua blok kode akan dieksekusi bersamaan, andaikan ada 2 function yand ada dalam 1 file js, kedua function itu akan dieksekusi bersamaan, tak peduli walaupun function pertama belum selesai dieksekusi, function kedua akan dieksekusi tanpa menunggu function pertama selesai.
+- Synchronous
+Misalkan ada 2 function dalam 1 file js, function kedua tidak akan dieksekusi ketika function 1 belum selesai di eksekusi. Dengan syarat kedua function tersebut harus berada di blok kode pomise.
+```
+const data =  new Promise((resolve, reject) => {
+  function a(){
+    setTimeout(() => {
+      console.log('awal yeay');
+    }, 1000);
+    console.log('yah terakhir dung...');
+  }
+}
+```
+output 'awal yeay' akan ditampilkan dan output 'yah terakhir dung...' akan ditampilkan setelah 1 detik.
+<br>
+contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/promise.js">promise.js</a>

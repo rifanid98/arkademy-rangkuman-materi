@@ -28,8 +28,7 @@
      }
     //  ,
     //  sumAgeArrow : (param) => {
-    //      console.log(this.age);
-         
+    //      console.log(this.age); //tidak bisa mengambil object di luar function.    
     //  }
  }
  profile.sumAge(1); //output 22
