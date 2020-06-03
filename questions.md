@@ -5,14 +5,13 @@
 
 2. contoh function 
 ```
-    var sum = function(param1+param2){
-     // code here
-    }
-    ```
-    sama seperti :
+var sum = function(param1+param2){
+    // code here
+}
 
-    ```
-    function sum(param1+param2){
-     // code here
-    }
-    ```
+sama seperti :
+
+function sum(param1+param2){
+    // code here
+}
+```
