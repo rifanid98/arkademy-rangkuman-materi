@@ -4,8 +4,6 @@
 - Var (ES5)
 - Let (ES6)
 - Const (ES6)
-
-#### switch-case
 #### Var
 - Bisa diubah-ubah
 
