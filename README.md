@@ -138,7 +138,9 @@ data.then(() => {
   //code here
 })
 ```
+
 tetapi kita gunakan async/await :
+
 ```
 const data = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -159,14 +161,18 @@ const asyncFunc = async () => {
         console.log(error);
     }
 }
-```
+
 pada kode :
 ```
 const getData = await data
 ```
-<b>asyncFunc</b> akan menungggu hasil dari eksekusi kode :
+
+<b>asyncFunc</b> akan menungggu hasil dari eksekusi 
+kode :
 ```
 const data = new Promise((resolve, reject)
 ```
-apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan eksekusi
+
+apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan dieksekusi
+<br>
 contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/asyncawait.js">asyncawait.js</a>
