@@ -41,7 +41,6 @@
 
 #### const
 - konstanta, nilainya tetap tidak bisa diubah, begitu juga tipe datanya
- 
  <br>
  contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/variable.js">variable.js</a>
 
