@@ -38,11 +38,12 @@
   setUmur(); //menampilkan variabel umur yang di dalam function
   ```
  (memang bikin bingung sih, kalo udah ada penjelasan lebih mudah, nanti diupdate)
- contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/variable.js">variable.js</a>
 
 #### const
 - konstanta, nilainya tetap tidak bisa diubah, begitu juga tipe datanya
-
+ 
+ <br>
+ contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/variable.js">variable.js</a>
 
 ## Conditions
 > - if-else <br>
