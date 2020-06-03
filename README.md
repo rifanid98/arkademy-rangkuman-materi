@@ -114,3 +114,35 @@ const data =  new Promise((resolve, reject) => {
 output 'awal yeay' akan ditampilkan dan output 'yah terakhir dung...' akan ditampilkan setelah 1 detik.
 <br>
 contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/promise.js">promise.js</a>
+
+### async/await
+Gampangnya, async/await itu digunakan bersamaan dengan Promise. Biasanya sih sebagai pengganti .then() dan .catch(), tapi digunakannya untuk tujuan yang lebih kompleks.
+```
+const data = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('harusnya ini dulu!');
+    }, 2000);
+
+    setTimeout(() => {
+        reject('rejected!');
+    }, 3000);
+})
+
+const asyncFunc = async () => {
+    try {
+        const getData = await data
+        console.log(getData);
+        console.log('sesudah promise');
+    } catch (error) {
+        console.log(error);
+    }
+}
+```
+pada kode :
+```const getData = await data
+```
+<b>asyncFunc</b> akan menungggu hasil dari eksekusi kode :
+```const data = new Promise((resolve, reject)
+```
+apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan eksekusi
+contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/asyncawait.js">asyncawait.js</a>
