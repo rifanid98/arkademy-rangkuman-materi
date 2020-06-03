@@ -161,10 +161,12 @@ const asyncFunc = async () => {
 }
 ```
 pada kode :
-```const getData = await data
+```
+const getData = await data
 ```
 <b>asyncFunc</b> akan menungggu hasil dari eksekusi kode :
-```const data = new Promise((resolve, reject)
+```
+const data = new Promise((resolve, reject)
 ```
 apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan eksekusi
 contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/asyncawait.js">asyncawait.js</a>
