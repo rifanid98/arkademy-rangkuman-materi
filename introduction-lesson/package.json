@@ -1,0 +1,14 @@
+{
+  "name": "introduction-lesson",
+  "version": "1.0.0",
+  "description": "introduction lesson test",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "introduction"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
