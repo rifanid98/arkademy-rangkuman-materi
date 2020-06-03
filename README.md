@@ -62,9 +62,9 @@
 contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/conditions.js">conditions.js</a>
 
 ## Function and Method
-- ES5
+- <b>ES5</b>
 Function di ES5 dan ES6 berbeda. 
-Function di ES5 struktrunya seperti ini :
+Function di ES5 strukturnya seperti ini :
 ```
 function nama_function(parameter1, parameter2, parameter3,...){
   //code here
@@ -72,7 +72,7 @@ function nama_function(parameter1, parameter2, parameter3,...){
 
 nama_function(1,2,3); //memanggil function
 ```
-- ES6
+- <b>ES6</b>
 Function di ES6 strukturnya berbeda, seperti ini :
 ```
 const nama_variabel = (parameter1, parameter2, parameter3,...) => {
@@ -83,7 +83,7 @@ nama_variabel(1,2,3); //memanggil function
 ```
 nama_variabel merupakan nama function yang diguanakan pada arrow function.
 kenapa dipanggil arrow function? karena menggunakan tanda panah <b>=></b>
-<br>
+<br><br>
 contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/function.js">function.js</a>
 
 ## Loops and Iteration
@@ -105,13 +105,13 @@ Misalkan ada 2 function dalam 1 file js, function kedua tidak akan dieksekusi ke
 const data =  new Promise((resolve, reject) => {
   function a(){
     setTimeout(() => {
-      console.log('awal yeay');
+      console.log('awal yeay'); //akan dieksekusi terlebih dulu
     }, 1000);
-    console.log('yah terakhir dung...');
+    console.log('yah terakhir dung...');  //baru ini setelahnya
   }
 }
 ```
-output 'awal yeay' akan ditampilkan dan output 'yah terakhir dung...' akan ditampilkan setelah 1 detik.
+output 'awal yeay' akan ditampilkan dan output 'yah terakhir dung...' akan ditampilkan setelah 1 detik bersamaan dengan selesainya eksekusi setTimeout(). Padahal jika blok kode function a() itu dieksekusi diluar blok kode Promise(), yang akan muncul terlebih dulu adalah <b>yah terakhir dung...</b> barulah disusul dengan output <b>awal yeay</b>.
 <br>
 contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/promise.js">promise.js</a>
 
