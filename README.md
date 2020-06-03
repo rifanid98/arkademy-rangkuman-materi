@@ -7,11 +7,10 @@
 
 #### var
 - digunakan untuk menandakan suatu variabel
-- tipe data dari var bisa diupdate pada baris kode berikutnya
+- variabel yang ditandai dengan var, tipe data dan value (isinya) bisa diubah
   contoh: 
   > var umur = 10; (integer) <br>
   > var umur = 'sepuluh'; (berubah jadi string)
-- variabel yang ditandai dengan var , datanya bisa diubah
 - apabila var dibuat diluar function, maka var bisa juga diakses di dalam function
 
 #### let
