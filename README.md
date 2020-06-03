@@ -95,11 +95,11 @@ contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/ma
 
 ## Promise and async/await
 ### Promise
-Promise itu digunakan untuk mengganti metode eksekusi syntax javascript dari asynchronous ke synchronous.
+Promise itu digunakan untuk mengganti metode eksekusi syntax javascript dari asyncronous ke syncronous.
 apa itu ?
-- Asynchronous
-Semua blok kode akan dieksekusi bersamaan, andaikan ada 2 function yand ada dalam 1 file js, kedua function itu akan dieksekusi bersamaan, tak peduli walaupun function pertama belum selesai dieksekusi, function kedua akan dieksekusi tanpa menunggu function pertama selesai.
-- Synchronous
+- <b>Asyncronous</b>
+Semua blok kode akan dieksekusi bersamaan, andaikan terdapat 2 function yang ada dalam 1 file js, kedua function itu akan dieksekusi bersamaan, tak peduli walaupun function pertama belum selesai dieksekusi, function kedua akan dieksekusi tanpa menunggu function pertama selesai.
+- <b>Syncronous</b>
 Misalkan ada 2 function dalam 1 file js, function kedua tidak akan dieksekusi ketika function 1 belum selesai di eksekusi. Dengan syarat kedua function tersebut harus berada di blok kode pomise.
 ```
 const data =  new Promise((resolve, reject) => {
