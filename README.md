@@ -6,10 +6,32 @@
 > - const (ES6) <br>
 
 #### var
-- Bisa diubah-ubah
+- digunakan untuk menandakan suatu variabel
+- tipe data dari var bisa diupdate pada baris kode berikutnya
+  contoh: 
+  > var umur = 10; (integer) <br>
+  > var umur = 'sepuluh'; (berubah jadi string)
+- variabel yang ditandai dengan var , datanya bisa diubah
+- apabila var dibuat diluar function, maka var bisa juga diakses di dalam function
+
+#### let
+- dapat dikatakan bahwa let itu bentuk impovisasi dari var, jadi ya..., versi kerennya var gitu deh.
+- berbeda dengan var, let bisa diubah datanya , tapi <b>tidak bisa diubah tipe datanya</b>
+- variabel yang ditandai dengan let, hanya bisa diakses di blok kode dimana variabel tersebut ditulis.
+  contoh:
+  > var umur = 10;
+  > function gantiUmur() { <br>
+  >   umur = 11; //umur berganti jadi 11 <br>
+  >   let nama = 'nama';  <br>
+  > } <br>
+  >  <br>
+  > function gantiNama() { <br>
+  >     nama = 'nama baru'; // ini akan error, karena nama berada di function gantiUmur() <br>
+  > } <br>
+ (memang bikin bingung sih, kalo udah ada penjelasan lebih mudah, nanti diupdate)
 
 #### const
-- Const
+- konstanta, nilainya tetap tidak bisa diubah, begitu juga tipe datanya
 
 
 ## Conditions
