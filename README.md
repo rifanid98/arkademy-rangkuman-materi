@@ -12,21 +12,31 @@
   > var umur = 10; (integer) <br>
   > var umur = 'sepuluh'; (berubah jadi string)
 - apabila var dibuat diluar function, maka var bisa juga diakses di dalam function
-
+  contoh:
+  ```
+  var umur = 10;
+  function setUmurNew(){
+    var umur = 20; // berhasil diubah
+  }
+  ```
 #### let
 - dapat dikatakan bahwa let itu bentuk impovisasi dari var, jadi ya..., versi kerennya var gitu deh.
 - berbeda dengan var, let bisa diubah datanya , tapi <b>tidak bisa diubah tipe datanya</b>
 - variabel yang ditandai dengan let, hanya bisa diakses di blok kode dimana variabel tersebut ditulis.
+- let yang ada di luar function, maka itu berlaku untuk di luar function
+- let yang ada di dalam function maka itu berbeda dengan let yang di luar function, dan hanya berlaku di dalam function di mana let tersebut ditulis atau dideklarasikan.
   contoh:
-  > var umur = 10;
-  > function gantiUmur() { <br>
-  >   umur = 11; //umur berganti jadi 11 <br>
-  >   let nama = 'nama';  <br>
-  > } <br>
-  >  <br>
-  > function gantiNama() { <br>
-  >     nama = 'nama baru'; // ini akan error, karena nama berada di function gantiUmur() <br>
-  > } <br>
+  ```
+  let umur = 10;
+
+  function setUmur(){
+    let umur = 20;
+    console.log(umur);
+  }
+
+  console.log(umur); //menampilkan variabel umur yang di luar function
+  setUmur(); //menampilkan variabel umur yang di dalam function
+  ```
  (memang bikin bingung sih, kalo udah ada penjelasan lebih mudah, nanti diupdate)
 
 #### const
