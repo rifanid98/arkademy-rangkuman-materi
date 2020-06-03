@@ -119,6 +119,7 @@ contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tr
 Gampangnya, async/await itu digunakan bersamaan dengan Promise. Biasanya sih sebagai pengganti .then() dan .catch(), tapi digunakannya untuk tujuan yang lebih kompleks.
 <br>
 Jika biasanya digunakan kode seperti ini :
+
 ```
 const data = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -162,13 +163,16 @@ const asyncFunc = async () => {
     }
 }
 ```
+
 pada kode :
+
 ```
 const getData = await data
 ```
 
 <b>asyncFunc</b> akan menungggu hasil dari eksekusi 
 kode :
+
 ```
 const data = new Promise((resolve, reject))
 ```
