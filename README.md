@@ -111,7 +111,7 @@ const data =  new Promise((resolve, reject) => {
   }
 }
 ```
-output 'awal yeay' akan ditampilkan dan output 'yah terakhir dung...' akan ditampilkan setelah 1 detik bersamaan dengan selesainya eksekusi setTimeout(). Padahal jika blok kode function a() itu dieksekusi diluar blok kode Promise(), yang akan muncul terlebih dulu adalah <b>yah terakhir dung...</b> barulah disusul dengan output <b>awal yeay</b>.
+output 'awal yeay' akan ditampilkan setelah satu detik dan output 'yah terakhir dung...' akan ditampilkan setelah selesainya eksekusi dari blok kode <b>setTimeout()</b>. Padahal jika blok kode function a() itu dieksekusi diluar blok kode Promise(), yang akan muncul terlebih dulu adalah <b>yah terakhir dung...</b> barulah disusul dengan output <b>awal yeay</b>.
 <br>
 contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/promise.js">promise.js</a>
 
