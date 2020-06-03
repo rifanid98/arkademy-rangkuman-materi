@@ -5,10 +5,10 @@
 - Let (ES6)
 - Const (ES6)
 
-### Var
+#### Var
 - Bisa diubah-ubah
 
-### Const
+#### Const
 - Const
 
 
@@ -17,14 +17,13 @@
 - switch-case
 - ternary operator
 
-### if-else
+#### if-else
 - digunakan untuk mengecek suatu kondisi (tapi kondisinya umum, bisa cek angka, bisa cek hari, bisa cek variabel, etc)
 - if-else bisa mengecek kondisi yang berbeda dengan satu if denga if lainnya. contoh, kita bisa cek hari di if pertama, kita bisa cek bulan di if kedua, etc.
-### switch-case
+#### switch-case
 - digunakan untuk mengecek suatu kondisi tertentu (cuma bisa menentukan suatu kondisi tersebut yang dicek sampai switch-case selesai)
 - tidak bisa mengecek kondisi yang lain, hanya bisa mengecek kondisi tertentu. contoh, kita cek hari, jadi bisa cek hari aja, gabisa cek bulan etc.
-
-### ternary operator
+#### ternary operator
 - gampangnya itu, if-else versi pendek, versi satu baris.
 - biasa digunakan hanya untuk menentukan atu mengecek satu kondisi saja.
 
