@@ -27,6 +27,13 @@ console.log(name.slice(0,2) + '\n'); //20 white (string)
 var sum = function(param1, param2) {
     console.log(param1+param2);
 }
+// sama juga seperti ini
+/*
+    function sum(param1, param2){
+        code here
+    }
+
+*/
 
 /**
  * Object
