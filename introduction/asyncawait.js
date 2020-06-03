@@ -1,6 +1,6 @@
 
 /**
- * syncronous
+ * synchronous
  */
 
 const data = new Promise((resolve, reject) => {
@@ -10,7 +10,7 @@ const data = new Promise((resolve, reject) => {
 
     setTimeout(() => {
         reject('rejected!');
-    }, 3000);
+    }, 1000);
 })
 
 const asyncFunc = async () => {
@@ -22,3 +22,5 @@ const asyncFunc = async () => {
         console.log(error);
     }
 }
+
+asyncFunc();
