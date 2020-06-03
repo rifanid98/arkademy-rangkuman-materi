@@ -6,7 +6,7 @@
 > const (ES6) <br>
 
 #### var
-- Bisa diubah-ubah
+Bisa diubah-ubah
 
 #### const
 - Const
