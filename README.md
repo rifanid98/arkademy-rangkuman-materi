@@ -5,7 +5,7 @@
 > let (ES6) <br>
 > const (ES6) <br>
 
-#### var
+- var
 Bisa diubah-ubah
 
 #### const
