@@ -1,9 +1,9 @@
 # javascript-fundamental
 
 ## Variables
-> var (ES5)
-> let (ES6)
-> const (ES6)
+> var (ES5) <br>
+> let (ES6) <br>
+> const (ES6) <br>
 
 #### var
 - Bisa diubah-ubah
