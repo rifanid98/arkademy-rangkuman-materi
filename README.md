@@ -112,7 +112,7 @@ const data =  new Promise((resolve, reject) => {
 }
 ```
 output <b>awal yeay</b> akan ditampilkan setelah satu detik dan output <b>yah terakhir dung...</b> akan ditampilkan setelah selesainya eksekusi dari blok kode <b>setTimeout()</b>. Padahal jika blok kode <b>function a()</b> itu dieksekusi diluar blok kode <b>Promise()</b>, yang akan muncul terlebih dulu adalah <b>yah terakhir dung...</b> barulah disusul dengan output <b>awal yeay</b>.
-<br>
+<br><br>
 contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/promise.js">promise.js</a>
 
 ### async/await
@@ -178,5 +178,5 @@ const data = new Promise((resolve, reject))
 ```
 
 apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan dieksekusi
-<br>
+<br><br>
 contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/introduction/asyncawait.js">asyncawait.js</a>
