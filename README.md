@@ -1,9 +1,9 @@
 # javascript-fundamental
 
 ## Variables
-> var (ES5) <br>
-> let (ES6) <br>
-> const (ES6) <br>
+> - var (ES5) <br>
+> - let (ES6) <br>
+> - const (ES6) <br>
 
 #### var
 - Bisa diubah-ubah
@@ -13,9 +13,9 @@
 
 
 ## Conditions
-> if-else <br>
-> switch-case <br>
-> ternary operator <br>
+> - if-else <br>
+> - switch-case <br>
+> - ternary operator <br>
 
 #### if-else
 - digunakan untuk mengecek suatu kondisi (tapi kondisinya umum, bisa cek angka, bisa cek hari, bisa cek variabel, etc)
