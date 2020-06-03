@@ -5,17 +5,17 @@
 > let (ES6) <br>
 > const (ES6) <br>
 
-- var
-Bisa diubah-ubah
+#### var
+- Bisa diubah-ubah
 
 #### const
 - Const
 
 
 ## Conditions
-- if-else
-- switch-case
-- ternary operator
+> if-else <br>
+> switch-case <br>
+> ternary operator <br>
 
 #### if-else
 - digunakan untuk mengecek suatu kondisi (tapi kondisinya umum, bisa cek angka, bisa cek hari, bisa cek variabel, etc)
@@ -28,7 +28,7 @@ Bisa diubah-ubah
 - biasa digunakan hanya untuk menentukan atu mengecek satu kondisi saja.
 
 ## Function and Method
-- 
+> 
 
 ## Loops and Iteration
 - perulangan , dah gitu aja.
@@ -36,4 +36,4 @@ Bisa diubah-ubah
 
 
 ## Promise and async/await
--
+>
