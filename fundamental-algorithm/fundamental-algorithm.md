@@ -31,5 +31,5 @@ Algoritma masing-masing orang pastinya berbeda-beda, namun tujuannya adalah sama
 ><li>Masukkan bumbu mie</li>
 ><li>Tambahkan kuah jika yang dimasak adalah mie kuah, jika bukan, skip</li>
 ><li>Aduk mie hingga merata dengan bumbu</li>
-><li><b>Mie siap untuk dihidangkan dan dimakan</b></li>
+><li><b>Mie siap untuk dihidangkan dan disantap</b></li>
 ></ol>
