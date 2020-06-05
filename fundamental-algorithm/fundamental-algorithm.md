@@ -1,7 +1,7 @@
 # fundamental-algorithm
 
 ## Algoritma
-<b>Apa itu algoritma?</b> adalah suatu <b>tahapan</b> yang <b>berurutan</b> untuk mencapai <b>tujuan tertentu</b>. Contohnya, ketika hendak memasak mie instan. Apa yang tahapan yang harus dilakukan? secara sederhana, tahapan memasak mie instan adalah sebagai berikut:
+<b>Apa itu algoritma?</b> adalah suatu <b>tahapan</b> yang <b>berurutan</b> untuk mencapai <b>tujuan tertentu</b>. Contohnya, ketika hendak memasak mie instan. Apa saja tahapan yang harus dilakukan? secara sederhana, tahapan memasak mie instan adalah sebagai berikut:
 ><ol>
 ><li>Pilih <b>Mie</b> yang hendak dimasak</li>
 ><li>Ambil alat untuk memasak mie (bisa panci, atau penggorengan)</li>
@@ -51,8 +51,7 @@ Jika tidak maka:
    cetak 'tidak lulus'
 ```
 
-lalu, apa keuntungannya mengubah algoritma biasa (yang ada dalam pikiran kita, atau yang sudah ditulis di buku atau entah di mana algoritma tersebut ditulis) ke dalam bentuk notasi pseudocode? salah satunya adalah kita bisa dengan mudah mengkonversikan pseudocode tadi ke dalam bahasa pemrograman. <br>
-pseudocode tadi bisa menjadi seperti ini dalam bahasa pemrograman php :
+lalu, apa keuntungannya mengubah algoritma biasa (yang ada dalam pikiran kita, atau yang sudah ditulis di buku atau entah di mana algoritma tersebut ditulis) ke dalam bentuk notasi pseudocode? salah satunya adalah kita bisa dengan mudah mengkonversikan pseudocode tadi ke dalam bahasa pemrograman. Pseudocode tadi bisa menjadi seperti ini dalam bahasa pemrograman php :
 
 ```
 <?php
@@ -75,3 +74,6 @@ if( x > 50 ) {
     console.log('tidak lulus');
 }
 ```
+
+#### Flowchart
+Flowchart adalah <b>diagram alur</b> yang merupakan notasi dari algoritma juga sama halnya seperti pseudocode. Bedanya, pada flowchart kita gunakan diagram atau bentuk-bentuk yang mewakili makna tertentu. Misalnya bentuk oval menandakan start dan end (awal dan akhir) dari suatu algoritma, trapesium menandakan input/output dan sebagainya. Legenda atau arti-arti dari masing-masing diagram flowchart bisa dilihat di sini <a href="https://www.smartdraw.com/flowchart/flowchart-symbols.htm">smartdraw.com</a>. (bisa saja link mati atau berubah, silahkan cari referensi lain).
