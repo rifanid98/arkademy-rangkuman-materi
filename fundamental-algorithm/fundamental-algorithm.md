@@ -95,3 +95,5 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Looping stringArray, masukkan value stringArray ke stringArrayNew
 - Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
 - Cetaklah string2
+
+Flowchartnya
