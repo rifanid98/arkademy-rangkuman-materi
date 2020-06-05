@@ -1,6 +1,6 @@
 const palindrom = (string) => {
     // cek input
-    if(string.length < 1 || string == null){
+    if(string.trim().length < 1 || string.trim() == null){
         return 'oo tidak bisa';
     }
     // simpan string
@@ -25,13 +25,13 @@ const palindrom = (string) => {
 
     // cek, palindrom kah?
     if (string1 == string2) {
-        return 'palindrom';
+        return string + 'adalah palindrom';
     }
     // atau bukan
     else {
-        return '!palindrom';
+        return string + 'adalah !palindrom';
     }
 }
 
-console.log('malam adalah ' + palindrom('malam'));
-console.log('pagi adalah ' + palindrom('pagi'));
+console.log(palindrom('malam'));
+console.log(palindrom('pagi'));

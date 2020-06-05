@@ -1,6 +1,6 @@
 const words_reverse = (words) => {
     // cek input
-    if(words.length < 1 || words == null){
+    if(words.trim().length < 1 || words.trim() == null){
         return 'tidak bisa ya...';
     }
 
@@ -24,7 +24,7 @@ const words_reverse = (words) => {
     let string2 = stringArrayNew.join(' ');
 
     // print hasilnya
-    return string2;
+    return words + ' dibalik menjadi ' + string2;
 }
 
-console.log('Saya belajar Javascript dibalik menjadi ' + words_reverse('Saya belajar Javascript'));
+console.log(words_reverse('Saya belajar Javascript'));
