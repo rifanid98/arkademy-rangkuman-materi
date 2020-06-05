@@ -101,7 +101,7 @@ Source Code :
 <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/palindrom/palindrom_v1.js">palindrom.js</a>
 <br><br>
 Flowchartnya :
-<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/images/half_palindrom.jpg" alt="palindrom">
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/palindrom/palindrom_flowchart.js" alt="words_reverse">
 
 #### Words Reverse
 Words Reverse atau pembalikan kata. Contohnya Saya Belajar Javascript, jika dibalik menjadi Javascript Belajar Saya. Bagaimana algoritmanya? sebagai berikut:
@@ -118,4 +118,4 @@ Source Code :
 <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/words_reverse/words_reverse_v1.js">words_reverse.js</a>
 <br><br>
 Flowchartnya :
-<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/images/half_words_reverse.jpg" alt="words_reverse">
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/words_reverse/words_reverse_flowchart.js" alt="words_reverse">
