@@ -33,3 +33,20 @@ Algoritma masing-masing orang pastinya berbeda-beda, namun tujuannya adalah sama
 ><li>Aduk mie hingga merata dengan bumbu</li>
 ><li><b>Mie siap untuk dihidangkan dan disantap</b></li>
 ></ol>
+
+Dengan kata lain, semua orang tidak terkecuali bahkan seseorang yang tidak ada hubungannya dengan IT pun tetap bisa membuat algoritma. Tetapi bedanya, programmer harus lebih jelas dan tertata serta teratur dalam membuat suatu algoritma. Agar bisa dibaca oleh anggota tim atau programmer lainnya. <br>
+
+Lalu, bagaimana cara membuat algoritma yang sesuai dengan standar? Kita bisa mengubah algoritma yang sudah kita buat ke dalam bentuk notasi. Apa itu notasi? mudahnya, notasi algoritma bisa dikatakan sebuah bentuk standar dalam pembuatan algoritma sehingga bisa dan mudah dibaca oleh orang lain, terutama programmer. Berikut notasi-notasi yang ada:
+> - Pseudocode
+> - Flowchart
+> - etc.
+
+#### Pseudocode
+Pseudocode merupakan notasi algoritma yang hampir menyerupai syntax kodingan suatu bahasa pemrograman, namun tidak terkait suatu bahasa pemrograman tertentu, bisa dibuat dengan menggunakan bahasa indonesia. contoh:
+
+```
+Jika x > 50 maka:
+   cetak 'lulus'
+Jika tidak maka:
+   cetak 'tidak lulus'
+```
