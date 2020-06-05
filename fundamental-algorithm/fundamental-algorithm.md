@@ -79,3 +79,9 @@ if( x > 50 ) {
 Flowchart adalah <b>diagram alur</b> yang merupakan notasi dari algoritma juga sama halnya seperti pseudocode. Bedanya, pada flowchart kita gunakan diagram atau bentuk-bentuk yang mewakili makna tertentu. Misalnya bentuk oval menandakan start dan end (awal dan akhir) dari suatu algoritma, trapesium menandakan input/output dan sebagainya. Legenda atau arti-arti dari masing-masing diagram flowchart bisa dilihat di sini <a href="https://www.smartdraw.com/flowchart/flowchart-symbols.htm">smartdraw.com</a>. (bisa saja link mati atau berubah, silahkan cari referensi lain).
 <br><br>
 contoh flowchart <a href="https://www.google.com/search?safe=strict&tbm=isch&sxsrf=ALeKk01nORw61MXfOJ5rp7PXyVavsPwO6A%3A1591339018927&source=hp&biw=1366&bih=623&ei=CujZXorsNLGhmgeLybwY&q=flowchart&oq=flowchart&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzoHCCMQ6gIQJ1CxD1jjFmCUGGgBcAB4AIAB-wKIAd4LkgEHMC40LjIuMZgBAKABAaoBC2d3cy13aXotaW1nsAEK&sclient=img&ved=0ahUKEwiKmb_nh-rpAhWxkOYKHYskDwMQ4dUDCAY&uact=5">flowchart</a>
+
+## Contoh Kasus
+Ada beberapa contoh kasus dari algoritma. Yaitu:
+> - Palindrom
+> - Words Reverse
+
