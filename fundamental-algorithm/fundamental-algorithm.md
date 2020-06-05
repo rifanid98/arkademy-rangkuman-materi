@@ -50,3 +50,28 @@ Jika x > 50 maka:
 Jika tidak maka:
    cetak 'tidak lulus'
 ```
+
+lalu, apa keuntungannya mengubah algoritma biasa (yang ada dalam pikiran kita, atau yang sudah ditulis di buku atau entah di mana algoritma tersebut ditulis) ke dalam bentuk notasi pseudocode? salah satunya adalah kita bisa dengan mudah mengkonversikan pseudocode tadi ke dalam bahasa pemrograman. <br>
+pseudocode tadi bisa menjadi seperti ini dalam bahasa pemrograman php :
+
+```
+<?php
+if( $x > 50 ) {
+    echo 'lulus';
+} else {
+    echo 'tidak lulus';
+}
+?>
+```
+
+atau dalam bahasa pemrograman javascript :
+
+```
+let x = 60; //inisiasi atau deklarasi atau pembuatan variabel
+
+if( x > 50 ) {
+    console.log('lulus');
+} else {
+    console.log('tidak lulus');
+}
+```
