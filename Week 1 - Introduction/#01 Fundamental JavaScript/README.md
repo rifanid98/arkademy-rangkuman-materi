@@ -42,7 +42,10 @@
 #### const
 - konstanta, nilainya tetap tidak bisa diubah, begitu juga tipe datanya
  <br>
- contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/variable.js">variable.js</a>
+ contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/01%20-%20variable.js">variable.js</a>
+
+## DataTypes
+<a href=" https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/02%20-%20datatypes.js">datatypes.js</a>
 
 ## Conditions
 > - if-else <br>
@@ -59,7 +62,7 @@
 - gampangnya itu, if-else versi pendek, versi satu baris.
 - biasa digunakan hanya untuk menentukan atu mengecek satu kondisi saja.
 <br>
-contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/conditions.js">conditions.js</a>
+contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/03%20-%20conditions.js">conditions.js</a>
 
 ## Function and Method
 - <b>ES5</b>
@@ -84,14 +87,14 @@ nama_variabel(1,2,3); //memanggil function
 nama_variabel merupakan nama function yang diguanakan pada arrow function.
 kenapa dipanggil arrow function? karena menggunakan tanda panah <b>=></b>
 <br><br>
-contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/function.js">function.js</a>
+contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/04%20-%20function.js">function.js</a>
 
 ## Loops and Iteration
 - perulangan , dah gitu aja.
 - dipakai itu paling sering case nya ketika menampilkan data dari database, biasanya pake loop, membuat nomor urut, biasanya pakai loop.
 - ada for loop, while loop, foreach loop, map loop etc.
 <br>
-contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/loops.js">loops.js</a>
+contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/05%20-%20loops.js">loops.js</a>
 
 ## Promise and async/await
 ### Promise
@@ -113,7 +116,7 @@ const data =  new Promise((resolve, reject) => {
 ```
 output <b>awal yeay</b> akan ditampilkan setelah satu detik dan output <b>yah terakhir dung...</b> akan ditampilkan setelah selesainya eksekusi dari blok kode <b>setTimeout()</b>. Padahal jika blok kode <b>function a()</b> itu dieksekusi diluar blok kode <b>Promise()</b>, yang akan muncul terlebih dulu adalah <b>yah terakhir dung...</b> barulah disusul dengan output <b>awal yeay</b>.
 <br><br>
-contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/promise.js">promise.js</a>
+contoh lain : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/06%20-%20promise.js">promise.js</a>
 
 ### async/await
 Gampangnya, async/await itu digunakan bersamaan dengan Promise. Biasanya sih sebagai pengganti .then() dan .catch(), tapi digunakannya untuk tujuan yang lebih kompleks.
@@ -179,4 +182,4 @@ const data = new Promise((resolve, reject))
 
 apabila hasilnya resolve() (disetujui gitu yah, atau sukses), maka eksekusi blok kode <b>try{}</b>, jika hasilnya reject() (gagal gitu deh ya) maka blok kode <b>catch{}</b> akan dieksekusi
 <br><br>
-contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/asyncawait.js">asyncawait.js</a>
+contoh : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/07%20-%20asyncawait.js">asyncawait.js</a>
