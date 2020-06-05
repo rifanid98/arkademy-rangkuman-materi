@@ -2,7 +2,7 @@
 
 ## Algoritma
 <b>Apa itu algoritma?</b> adalah suatu <b>tahapan</b> yang <b>berurutan</b> untuk mencapai <b>tujuan tertentu</b>. Contohnya, ketika hendak memasak mie instan. Apa yang tahapan yang harus dilakukan? secara sederhana, tahapan memasak mie instan adalah sebagai berikut:
-<ul>
+<ol>
 <li>Pilih <b>Mie</b> yang hendak dimasak</li>
 <li>Letakan di mie tadi meja dapur</li>
 <li>Ambil alat untuk memasak mie (bisa panci, atau penggorengan)</li>
@@ -19,4 +19,4 @@
 <li>Tambahkan kuah jika yang dimasak adalah mie kuah, jika bukan, skip</li>
 <li>Aduk mie hingga merata dengan bumbu</li>
 <li>Mie siap untuk dihidangkan dan dimakan</li>
-</ul>
+</ol>
