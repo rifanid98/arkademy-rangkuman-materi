@@ -24,7 +24,7 @@ const words_reverse = (words) => {
     let string2 = stringArrayNew.join(' ');
 
     // print hasilnya
-    return words + ' dibalik menjadi ' + string2;
+    return words + '\ndibalik menjadi\n' + string2;
 }
 
 console.log(words_reverse('Saya belajar Javascript'));
