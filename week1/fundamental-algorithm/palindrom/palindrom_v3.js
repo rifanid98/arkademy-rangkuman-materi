@@ -1,7 +1,7 @@
 /**
 Terimakasih kepada : Dimas Mokodompit
-Github: https://github.com/danielwetan/
-Source: https://github.com/danielwetan/day3-bootcamp/
+Github: https://github.com/dimasdompit/
+Source: https://github.com/dimasdompit/Arkademy-B16.3---Tugas-1
  */
 
 // PALINDROM
