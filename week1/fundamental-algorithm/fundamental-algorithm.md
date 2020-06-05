@@ -98,7 +98,7 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Jika tidak, cetak '!palindrom'
 
 Source Code :
-<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/palindrom/palindrom_v1.js">palindrom.js</a>
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/palindrom/">palindroms</a>
 <br><br>
 Flowchartnya :
 <img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/palindrom/palindrom_flowchart.jpg" alt="words_reverse">
@@ -115,7 +115,7 @@ Words Reverse atau pembalikan kata. Contohnya Saya Belajar Javascript, jika diba
 - Cetaklah string2
 
 Source Code :
-<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/words_reverse/words_reverse_v1.js">words_reverse.js</a>
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/words_reverse/">words_reverses</a>
 <br><br>
 Flowchartnya :
 <img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/words_reverse/words_reverse_flowchart.jpg" alt="words_reverse">
