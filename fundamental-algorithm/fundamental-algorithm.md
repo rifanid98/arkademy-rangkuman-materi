@@ -94,8 +94,8 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Buat variabel <b>stringArrayNew</b> dan isi dengan array kosong
 - Looping stringArray, masukkan value stringArray ke stringArrayNew
 - Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
-- Jika string1 sama dengan string2
-- Cetaklah string2
+- Jika string1 sama dengan string2 cetaklah 'palindrom'
+- Jika tidak, cetak '!palindrom'
 
 Source Code :
 <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/js/palindrom_v1.js">palindrom.js</a>
