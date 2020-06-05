@@ -85,3 +85,13 @@ Ada beberapa contoh kasus dari algoritma. Yaitu:
 > - Palindrom
 > - Words Reverse
 
+#### Palindrom
+Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah kata <b>malam</b>. Kata malam akan dibaca malam juga jika dibalik dari belakang. Beda dengan kata <b>kasur</b>, kata kasur akan dibaca <b>rusak</b> jika dibalik dari belakang. Bagaimana algoritma nya? seperti berikut :
+- Buat variabel <b>string1</b>
+- Input variabel string1
+- Cek, apakah panjang data dari string1 itu lebih dari 0
+- Konversi value string1 menjadi array, lalu simpan di variabel <b>stringArray</b>
+- Buat variabel <b>stringArrayNew</b> dan isi dengan array kosong
+- Looping stringArray, masukkan value stringArray ke stringArrayNew
+- Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
+- Cetaklah string2
