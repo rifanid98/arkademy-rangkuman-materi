@@ -115,7 +115,7 @@ Words Reverse atau pembalikan kata. Contohnya Saya Belajar Javascript, jika diba
 - Cetaklah string2
 
 Source Code :
-<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/words_reverse/">words_reverses</a>
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/tree/master/Week%201%20-%20Introduction/%2302%20Fundamental%20Algorithm/02%20-%20words_reverse">words_reverses</a>
 <br><br>
 Flowchartnya :
-<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/words_reverse/words_reverse_flowchart.jpg" alt="words_reverse">
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2302%20Fundamental%20Algorithm/02%20-%20words_reverse/words_reverse_flowchart.jpg" alt="words_reverse" width="500">
