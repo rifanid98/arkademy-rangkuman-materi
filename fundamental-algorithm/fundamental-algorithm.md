@@ -96,4 +96,5 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
 - Cetaklah string2
 
-Flowchartnya
+Flowchartnya :
+<img src="" alt="">
