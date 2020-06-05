@@ -25,11 +25,11 @@ const palindrom = (string) => {
 
     // cek, palindrom kah?
     if (string1 == string2) {
-        return string + 'adalah palindrom';
+        return string + ' adalah palindrom';
     }
     // atau bukan
     else {
-        return string + 'adalah !palindrom';
+        return string + ' adalah !palindrom';
     }
 }
 
