@@ -1,3 +1,7 @@
+/*
+by Adnin Rifandi
+Github: https://github.com/rifanid98/ 
+*/
 const words_reverse = (words) => {
     // cek input
     if(words.trim().length < 1 || words.trim() == null){

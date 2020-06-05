@@ -1,3 +1,7 @@
+/*
+by Adnin Rifandi
+Github: https://github.com/rifanid98/ 
+*/
 const palindrom = (string) => {
     // cek input
     if(string.trim().length < 1 || string.trim() == null){
