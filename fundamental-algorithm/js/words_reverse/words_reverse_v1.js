@@ -27,4 +27,4 @@ const words_reverse = (words) => {
     return string2;
 }
 
-console.log(words_reverse('Saya belajar Javascript'));
+console.log('Saya belajar Javascript dibalik menjadi ' + words_reverse('Saya belajar Javascript'));

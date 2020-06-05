@@ -33,4 +33,5 @@ const palindrom = (string) => {
     }
 }
 
-console.log(palindrom('malam'));
+console.log('malam adalah ' + palindrom('malam'));
+console.log('pagi adalah ' + palindrom('pagi'));
