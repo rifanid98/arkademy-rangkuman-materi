@@ -1,5 +1,5 @@
 # Rangkuman Materi Arkademy
 
 ## Week 1 - Introduction
-- Javascript Fundamental <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-javascript/fundamental-javascript.md">view</a>
-- Algorithm Fundamental <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/fundamental-algorithm.md">view</a>
+- Javascript Fundamental <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/README.md">view</a>
+- Algorithm Fundamental <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2302%20Fundamental%20Algorithm/README.md">view</a>
