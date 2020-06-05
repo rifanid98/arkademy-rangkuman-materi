@@ -97,4 +97,4 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Cetaklah string2
 
 Flowchartnya :
-<img src="" alt="">
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/images/half_palindrom.jpg" alt="palindrom">
