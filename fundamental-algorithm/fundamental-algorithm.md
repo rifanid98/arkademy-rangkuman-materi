@@ -94,7 +94,28 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Buat variabel <b>stringArrayNew</b> dan isi dengan array kosong
 - Looping stringArray, masukkan value stringArray ke stringArrayNew
 - Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
+- Jika string1 sama dengan string2
 - Cetaklah string2
 
+Source Code :
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/js/palindrom_v1.js">palindrom.js</a>
+<br><br>
 Flowchartnya :
 <img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/images/half_palindrom.jpg" alt="palindrom">
+
+#### Words Reverse
+Words Reverse atau pembalikan kata. Contohnya Saya Belajar Javascript, jika dibalik menjadi Javascript Belajar Saya. Bagaimana algoritmanya? sebagai berikut:
+- Buat variabel <b>string1</b>
+- Input variabel string1
+- Cek, apakah panjang data dari string1 itu lebih dari 0
+- Konversi value string1 menjadi array, lalu simpan di variabel <b>stringArray</b>
+- Buat variabel <b>stringArrayNew</b> dan isi dengan array kosong
+- Looping stringArray, masukkan value stringArray ke stringArrayNew
+- Konversikan value stringArrayNew dari array ke bentuk string, lalu simpan di variabel <b>string2</b>
+- Cetaklah string2
+
+Source Code :
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/js/string_reverse_v1.js">string_reverse.js</a>
+<br><br>
+Flowchartnya :
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/images/half_words_reverse.jpg" alt="words_reverse">
