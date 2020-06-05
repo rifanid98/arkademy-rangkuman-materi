@@ -98,10 +98,10 @@ Palindrom adalah kata yang jika dibalik makan akan dibaca sama. Contohnya adalah
 - Jika tidak, cetak '!palindrom'
 
 Source Code :
-<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/palindrom/palindrom_v1.js">palindrom.js</a>
+<a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/palindrom/palindrom_v1.js">palindrom.js</a>
 <br><br>
 Flowchartnya :
-<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/fundamental-algorithm/palindrom/palindrom_flowchart.jpg" alt="words_reverse">
+<img src="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/week1/fundamental-algorithm/palindrom/palindrom_flowchart.jpg" alt="words_reverse">
 
 #### Words Reverse
 Words Reverse atau pembalikan kata. Contohnya Saya Belajar Javascript, jika dibalik menjadi Javascript Belajar Saya. Bagaimana algoritmanya? sebagai berikut:
