@@ -45,7 +45,111 @@
  contoh lain: <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/01%20-%20variable.js">variable.js</a>
 
 ## DataTypes
-<a href=" https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/02%20-%20datatypes.js">datatypes.js</a>
+Tipe data pada javascript bersifat dinamis. Apa maksudnya? Maksudnya adalah javascript bisa mendeteksi tipe data suatu variabel <b>yang berisi data</b> tanpa harus si programmer mendefinisikan atau menentukan terlebih dahulu tipe data yang akan digunakan. Pada bahasa Java, programmer harus menyebutkan terlebih dahulu tipe data suatu variabel ketika ingin membuatnya. 
+
+```
+int umur = 21;
+// umur = 21; //akan menghasilkan error karena tidak didefinisikan apa tipe data yang dipakai
+```
+
+Sedangkan pada javascript, tipe datanya bersifat dinamis.
+
+```
+let variabel_a = 21; //akan terdeteksi sebagai integer, karena berisi data angka
+let variabel_b = 'jakarta'; //akan terdeteksi sebagai string, karena berisi data karakter string
+```
+
+Tipe data yang ada pada bahasa pemrograman JavaScript antara lain:
+>- Integer
+>- String
+>- Function
+>- Object
+>- Array
+>- Null
+>- Undefined
+
+#### Integer <br>
+
+```
+/**
+ * Integer
+ */
+var age = 20;
+
+console.log(age); //20 yellow (int)
+// prototype bawaan integer
+console.log(age.toString() + '\n'); //20 white (string)
+```
+
+#### String
+
+```
+/**
+ * String
+ */
+var name = 'John';
+console.log(name); //John
+// prototype bawaan string
+/**
+   John => Jo,
+   dipotong dari index ke 0 sebanyak 2 karakter
+   karakter : J,o,h,n
+   index    : 0 1 2 3
+ */
+console.log(name.slice(0,2) + '\n'); //20 white (string)
+```
+
+#### Function
+Yups, pada javascript function juga merupakan tipe data. Agak aneh? memang. Tapi keren!
+
+```
+/**
+ * Function
+ */
+var sum = function(param1, param2) {
+    console.log(param1+param2);
+}
+// sama juga seperti ini
+/*
+    function sum(param1, param2){
+        code here
+    }
+
+*/
+```
+
+#### Object
+Apalagi ini? Yayaya... <br>
+Javascript juga punya tipe data Object (Hampir mirip dengan Array)
+
+```
+/**
+ * Object
+ */
+var profile = {
+    name: 'John',
+    age: 20
+}
+// update data object
+profile.name = 'Jojon';
+console.log(profile.name); // Jojon
+```
+
+#### Array
+
+```
+/**
+ * Array
+ */
+var fruits = ['buah1','buah2','buah3'];
+// contoh method dari array
+// menambah data atau element ke akhir array
+console.log(fruits.push('buah4')); // array fruits menjadi : ['buah1','buah2','buah3', 'buah4']
+// menghapus data atau element terakhir suatu array
+console.log(fruits.pop()); //['buah1', 'buah2']
+```
+<br><br>
+Source Code : <a href=" https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/02%20-%20datatypes.js">datatypes.js</a>
 
 ## Conditions
 > - if-else <br>
