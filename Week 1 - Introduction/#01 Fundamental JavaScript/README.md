@@ -149,7 +149,7 @@ console.log(fruits.push('buah4')); // array fruits menjadi : ['buah1','buah2','b
 console.log(fruits.pop()); //['buah1', 'buah2']
 ```
 <br><br>
-Source Code : <a href=" https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/02%20-%20datatypes.js">datatypes.js</a>
+Source Code : <a href="https://github.com/rifanid98/arkademy-rangkuman-materi/blob/master/Week%201%20-%20Introduction/%2301%20Fundamental%20JavaScript/02%20-%20datatypes.js">datatypes.js</a>
 
 ## Conditions
 > - if-else <br>
