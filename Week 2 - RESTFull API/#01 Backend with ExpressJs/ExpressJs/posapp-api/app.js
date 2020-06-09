@@ -14,7 +14,7 @@ const app = express();
  */
 // env config
 require('dotenv').config();
-// imnport custom global config
+// import custom global config
 const config = require('./src/configs/global');
 
 /**
