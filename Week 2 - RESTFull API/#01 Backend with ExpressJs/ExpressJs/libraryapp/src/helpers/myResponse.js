@@ -9,7 +9,7 @@ module.exports = {
       statusExecution: result.statusExecution,
       statusCode: statusCode,
       message: message,
-      data: result.data,
+      data: result.data
     });
   },
 };

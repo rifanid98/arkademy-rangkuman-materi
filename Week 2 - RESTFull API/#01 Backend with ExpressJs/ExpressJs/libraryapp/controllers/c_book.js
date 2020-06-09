@@ -13,9 +13,8 @@ const router = express.Router();
 const book = require('../models/m_book');
 
 router.get("/", (req, res, next) => {
-    res.status(200).json({
-        message: "get router"
-    })
+    // console.log(book.get_all());
+    // res.status(200).json(book.get_all());
 });
 
 router.post("/", (req, res, next) => {
@@ -24,7 +23,7 @@ router.post("/", (req, res, next) => {
     })
 });
 
-router.patch("/", (req, res, next) => {
+router.patch("/:id", (req, res, next) => {
     res.status(200).json({
         message: "patch router"
     })

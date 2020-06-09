@@ -3,9 +3,9 @@
  * .
  * load config mysql
  */
-const conn = require('./src/helpers/mysql');
+const conn = require('../src/helpers/mysql');
 // import custom response
-const myResponse = require("./src/helpers/myResponse");
+const myResponse = require("../src/helpers/myResponse");
 
 // connect function
 function connect() {
@@ -15,6 +15,18 @@ function connect() {
     });
 }
 
+/**
+ * CRUD
+ */
 function get_all() {
+    let sqlQuery = "SELECT * FROM book_detail";
+    conn.query(sqlQuery, function(err, result) {
+        if (err) throw error;
         
+        return result;
+    })
+}
+
+module.exports = {
+    get_all
 }

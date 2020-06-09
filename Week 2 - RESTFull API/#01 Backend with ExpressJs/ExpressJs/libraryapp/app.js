@@ -52,9 +52,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-
 /**============================ Routes ============================ */
-
 
 /**
  * Routes
@@ -90,9 +88,7 @@ app.use(function (error, req, res, next) {
     });
 })
 
-
 /**============================== MySQL =========================== */
-
 
 /**
  * Config MySQL

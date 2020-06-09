@@ -49,15 +49,6 @@ function connect(){
     });
 }
 
-
-/**
- * response helper
- * .
- * merapihkan output
- * response: function(res, statusExecution, data, statusCode, message)
- */
-const myResponse = require("./src/helpers/myResponse");
-
 /**
  * config middleware
  * .
@@ -74,80 +65,10 @@ app.use(morgan('dev'));
 /**
  * Routes
  */
-// Get All Products
-app.get('/products', function(req, res) {
-    // res.send('Hello World');
-    conn.query("SELECT * FROM products", function (err, result) {
-      if (err) {
-          console.log(err);
-          return myResponse.response(res, "fail", result, 500, "Internal Server Error");
-      }
-      
-      return myResponse.response(res, 'success', result, 200, "Ok");
-    //   res.status(200).json(result);
-    });
-})
-// Post a Product
-app.post('/products', function(req, res){
-    const data = req.body;
-    conn.query("INSERT INTO products SET ? ", data, function (err, result) {
-        if (err) {
-            console.log(err);
-            return myResponse.response(res, "fail", result, 500, "Internal Server Error");
-        }
-
-        const newData = {
-            product_id : result.insertId,
-            ...data
-        }
-        return myResponse.response(res, 'success', newData, 201, "Created!");
-    });
-})
-// Update a Product
-app.patch('/products/:id', function(req, res){
-    const data = req.body;
-    const id   = req.params.id;
-    conn.query("UPDATE products SET ? WHERE product_id=? ", [data, id], function (err, result) {
-        if (err) {
-            console.log(err);
-            return myResponse.response(res, "fail", result, 500, "Internal Server Error. " + err.sqlMessage);
-        }
-        
-       
-        if (result.affectedRows > 0) {
-            let newData = {
-                product_id: req.params.id,
-                ...data
-            }
-            return myResponse.response(res, 'success', newData, 201, "Updated!");
-        } else {
-            let newData = {
-                product_id: req.params.id,
-            }
-            return myResponse.response(res, 'failed', newData, 404, "Not Found that id, data not updated.");
-        }
-    });
-})
-// Delete a Product
-app.delete('/products/:id', function(req, res){
-    const id   = req.params.id;
-    conn.query("DELETE FROM products WHERE product_id=(SELECT product_id FROM products WHERE product_id=?) ", id, function (err, result) {
-        if (err) {
-            console.log(err);
-            return myResponse.response(res, "fail", result, 500, "Internal Server Error. " + err.sqlMessage);
-        }
-
-        const newData = {
-            product_id: req.params.id
-        }
-        
-        if (result.affectedRows > 0){
-            return myResponse.response(res, 'success', newData, 200, "Deleted!");
-        } else {
-            return myResponse.response(res, 'failed', newData, 404, "Not Found!");
-        }
-    });
-})
+// load the controller
+const routes = require('./src/routes/r_index');
+// fire the routes
+app.use('/', routes);
 
 /**
  * Starting the server
