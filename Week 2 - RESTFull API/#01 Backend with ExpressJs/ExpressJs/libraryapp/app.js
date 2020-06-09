@@ -26,6 +26,8 @@ const config = require('./src/configs/global');
 // import custom response
 const myResponse = require("./src/helpers/myResponse");
 
+/**============================= CORS ============================= */
+
 /**
  * CORS Handling
  * .
@@ -33,10 +35,14 @@ const myResponse = require("./src/helpers/myResponse");
  */
 app.use(cors());
 
+/**============================ Morgan ============================ */
+
 /**
  * Morgan Logging
  */
 app.use(morgan('dev'));
+
+/**========================== Body Parser ========================= */
 
 /**
  * Body Parser
@@ -47,7 +53,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 
-/**=============================================================== */
+/**============================ Routes ============================ */
 
 
 /**
@@ -61,6 +67,8 @@ const bookController = require("./controllers/c_book");
 
 // fire the controllers
 app.use('/libraryapp/api/book', bookController);
+
+/**============================= URLs ============================= */
 
 /**
  * URL Error Handling
@@ -83,7 +91,7 @@ app.use(function (error, req, res, next) {
 })
 
 
-/**=============================================================== */
+/**============================== MySQL =========================== */
 
 
 /**
@@ -100,6 +108,8 @@ function connect(){
     });
 }
 
+/**============================ Server ============================ */
+
 /**
  * Server Start
  */
@@ -108,3 +118,5 @@ app.listen(port, () => {
     connect();
     console.log("Server is running on port " + port);
 });
+
+/**============================== EOL ============================= */
